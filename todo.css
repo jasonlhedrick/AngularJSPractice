@@ -1,0 +1,15 @@
+ul {
+	width: 200px;
+}
+li {
+	border: 1px solid black;
+}
+span { 
+	display: inline-block;
+	width: 200px
+	background-color: aliceblue;
+}
+.done-true {
+	text-decoration: line-through;
+	color: grey;
+}

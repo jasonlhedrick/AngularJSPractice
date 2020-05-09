@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app ng-strict-di>
+	<head>
+		<title>AngularJS Test 1</title>
+	</head>
+	<body>
+		<div>
+			<label>Name:</label>
+			<input type="text" ng-model="yourName" placeholder="Enter a name here.">
+			<hr>
+			<h1>Hello {{yourName}}!</h1>
+			<input type="text"  ng-model="yourProfession" placeholder="What is your profession?">
+			<hr>
+			<h2>{{yourProfession}}</h2>
+			<input type="text" ng-model="test3" placeholder="test3">
+			<hr>
+			<h2>{{test3}}</h2>
+			<table>
+				<tr><th>Row Number</th></tr>
+				<tr ng-repeat="i in [0, 1, 2, 3, 4, 5, 6, 7]"><td>
+				{{i}}<img src="{{i}}.png"></td></tr>
+				
+		</div>
+		<!-- Script Loading -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+	</body>
+</html>
